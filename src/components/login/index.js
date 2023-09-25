@@ -98,7 +98,7 @@ class login extends Component {
                   <LoginInput
                     type="text"
                     id="username"
-                    placeholder="Username"
+                    placeholder="rahul"
                     theme={theme}
                     value={username}
                     onChange={this.updateUsername}
@@ -109,7 +109,7 @@ class login extends Component {
                   <LoginInput
                     type={passwordType}
                     id="password"
-                    placeholder="Password"
+                    placeholder="rahul@2021"
                     theme={theme}
                     value={password}
                     onChange={this.updatePassword}
